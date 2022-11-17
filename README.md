@@ -71,11 +71,11 @@ Objective :-
 4] Use datasets to interpret the object and suggest whether the cat on the camera’s viewfinder belongs to which spices.
 
 # Methodology :-
-The Big cats detection system is a program that focuses on implementing real time Cat detection. It is a prototype of a new product that comprises of the main module: Cats detection and then showing on viewfinder whether the cat belongs to which species. Big Cats Detection Module
+The Big cats detection system is a program that focuses on implementing real time Cat detection. It is a prototype of a new product that comprises of the main module: Cats detection and then showing on viewfinder whether the cat belongs to Cheetah, Jaguar, Tiger Species.
 
-This Module is divided into three parts:
+This Module is described as follows
++:
 
-Cheetah, Jaguar and Tiger detection :-
 
 • Ability to detect the location of a cat's face in any input image or frame. The output is the bounding box coordinates on the detected face of a cat.
 
@@ -88,8 +88,6 @@ Cheetah, Jaguar and Tiger detection :-
 • Hence YOLOv5 which is a model library from roboflow for image classification and vision was used.
 
 • There are other models as well but YOLOv5 is smaller and generally easier to use in production. Given it is natively implemented in PyTorch (rather than Darknet), modifying the architecture and exporting and deployment to many environments is straightforward. 
-
-• Recognition of face or mark whether the cat belongs to which species.
 
 • YOLOv5 was used to train and test our model for whether the cat belongs to which species. We trained it for 149 epochs and achieved an accuracy of approximately 92%.
 
