@@ -56,6 +56,13 @@ Objective :-
 # Jetson Nano 2gb :-
 
 
+![nano_img01](https://user-images.githubusercontent.com/118160827/202396722-2296241b-c181-4530-b199-d4fda877f8c3.jpg)
+
+
+
+
+
+
 # Proposed System :-
 
 1] Study basics of machine learning and image recognition.
@@ -196,6 +203,14 @@ source '0' for webcam
 !python detect.py --weights best.pt --img 416 --conf 0.1 --source 0
 
 # Demo :-
+
+
+
+
+
+https://user-images.githubusercontent.com/118160827/202396903-eda5fc70-7797-4111-823a-f320b882cd4f.mp4
+
+
 
 
 # Advantages :-
