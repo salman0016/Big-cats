@@ -35,7 +35,7 @@ Objective :-
 
 • Big cats can be classified into Tiger, Jaguar and Cheetah based on the image annotation we give in roboflow. 
 
-• Cats detection sometimes become difficult as face or body are covered up by grass,tress and rock thereby making big cats detection difficult. However, training in Roboflow has allowed us to crop images and change the contrast of certain images to match the time of day for better recognition by the model.
+• Cats detection sometimes become difficult as face or body are covered up by grass, trees and rock thereby making big cats detection difficult. However, training in Roboflow has allowed us to crop images and change the contrast of certain images to match the time of day for better recognition by the model.
 
 • Neural networks and machine learning have been used for these tasks and have obtained good results.
 
@@ -68,14 +68,14 @@ Objective :-
 
 3] Testing, analysing and improvising the model. An application using python and Roboflow and its machine learning libraries will be using machine learning to identify whether the cat belongs to which spices.
 
-4] use datasets to interpret the object and suggest whether the cat on the camera’s viewfinder belongs to which spices.
+4] Use datasets to interpret the object and suggest whether the cat on the camera’s viewfinder belongs to which spices.
 
 # Methodology :-
 The Big cats detection system is a program that focuses on implementing real time Cat detection. It is a prototype of a new product that comprises of the main module: Cats detection and then showing on viewfinder whether the cat belongs to which species. Big Cats Detection Module
 
-This Module is divided into two parts:
+This Module is divided into three parts:
 
-1] Cheetah detection :-
+Cheetah, Jaguar and Tiger detection :-
 
 • Ability to detect the location of a cat's face in any input image or frame. The output is the bounding box coordinates on the detected face of a cat.
 
@@ -83,15 +83,11 @@ This Module is divided into two parts:
 
 • This Datasets identifies cat’s face in a Bitmap graphic object and returns the bounding box image with annotation of Cheetah, Jaguar or Tiger present in each image.
 
-2] jaguar Detection :-
-
 • Recognition of the face and whether the Cat belongs to which species.
 
 • Hence YOLOv5 which is a model library from roboflow for image classification and vision was used.
 
 • There are other models as well but YOLOv5 is smaller and generally easier to use in production. Given it is natively implemented in PyTorch (rather than Darknet), modifying the architecture and exporting and deployment to many environments is straightforward. 
-
-3] Tiger Detection :-
 
 • Recognition of face or mark whether the cat belongs to which species.
 
@@ -207,7 +203,7 @@ source '0' for webcam
 # Advantages :-
 • Big cats detection system will be of great help in locating cats in jungle safari.
 
-• Helmet detection system shows whether the cat in viewfinder of camera module is Cheetah, Jaguar or Tiger with good accuracy.
+• Cats detection system shows whether the cat in viewfinder of camera module is Cheetah, Jaguar or Tiger with good accuracy.
 
 • It can then convey it to authorities like forest officer or the data about the respective cat where he is relocatting and it can help the forest department to spot the big cat easily.
 
